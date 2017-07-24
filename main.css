@@ -1,0 +1,294 @@
+html, body {
+    width: 100%;
+    background-image: url("https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18121502_10155124692790772_2097829566452580976_o.jpg?oh=d5bf310c82bc4c71ae5c749551d5db4b&oe=5A08F74A");
+    position: fixed;
+    background-size: cover;
+}
+
+
+
+/*https://image.architonic.com/img_pfm2-4/205/5916/beton-grey-2-b.jpg */
+
+.main   {
+
+    height: 100%;
+    widows: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin-left: 350px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 0;
+}
+
+table, th, td {
+    border: 0;
+}
+
+tr  {
+
+    height: 160px;
+    padding: 0;
+}
+
+td  {
+
+    font-family: "Old Standard TT";
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 20px;
+
+}
+
+.blockhrefs   {
+
+    text-decoration : none;
+    color: black;
+    width:100%;
+    height: 100%;
+    display:block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+/*h3  {
+
+    font-family: "Old Standard TT";
+    text-align: center;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 500px;
+    left: 40px;
+}*/
+
+i.material-icons {
+
+    position: relative;
+    bottom: 75px;
+    left: 50px;
+
+}
+
+#vlog   {
+
+    background-color: rgba(0,0,0,0.8);
+    color: #FFF;
+
+}
+
+.fade_in:hover {
+
+        background-color: rgba(225,225,225,0.6);
+}
+
+.picture_me:hover {
+
+        background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhXAAAAJDYxNTUwMDI5LWZlMTktNDYzZi05MWEzLTM3ZjQ0OWRjMjc0NA.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        color: rgba(225,225,225,0.0);
+}
+
+.fade_grey#vlog:hover    {
+
+        background-color: dimgray;
+}
+
+.transparant {
+
+    background-color: transparent;
+    color: #FFF;
+}
+
+.vervagen {
+
+    background-color: rgba(225,225,225,0.6);
+    color: black;
+}
+
+#letter {
+
+    font-family: Tangerine;
+    font-size: 75px;
+    text-align: left;
+}
+
+.sidebar    {
+
+    float: left;
+    background-color: rgba(0,0,0,0.8);
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/*social media bar*/
+
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+#social-sidebar {
+	left: 0;
+	margin-top: -75px; /* (li * a:width) / -2 */
+	position: fixed;
+	top: 50%;
+
+}
+
+#social-sidebar li:first-child a { border-radius: 0 5px 0 0; }
+#social-sidebar li:last-child a { border-radius: 0 0 5px 0; }
+
+/*moves icons social media bar grey */
+
+#social-sidebar a {
+	background: rgba(225,225,225,0.3);
+	color: #FFF;
+	display: block;
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	width: 50px;
+    left: 10px;
+    right: 90px;
+    bottom: 85px;
+    font-family: "Old Standard TT";
+
+}
+
+#social-sidebar a:hover span {
+	left: 130%;
+	opacity: 1;
+}
+
+#social-sidebar a span {
+
+    border-radius: 3px;
+	line-height: 24px;
+	left: -100%;
+	margin-top: -16px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	padding: 4px 8px;
+	position: absolute;
+	-webkit-transition: opacity .3s, left .4s;
+	-moz-transition: opacity .3s, left .4s;
+	-ms-transition: opacity .3s, left .4s;
+	-o-transition: opacity .3s, left .4s;
+	transition: opacity .3s, left .4s;
+	top: 50%;
+  white-space: nowrap;
+	z-index: -1;
+
+}
+
+#social-sidebar a span:before {
+	content: "";
+	display: block;
+	height: 8px;
+	left: -4px;
+	margin-top: -4px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+	z-index: -2;
+}
+
+#social-sidebar a[class*="facebook"]:hover,
+#social-sidebar a[class*="facebook"] span,
+#social-sidebar a[class*="facebook"] span:before { background: #3b5998; }
+
+#social-sidebar a[class*="linkedin"]:hover,
+#social-sidebar a[class*="linkedin"] span,
+#social-sidebar a[class*="linkedin"] span:before { background: #007bb5; }
+
+#social-sidebar a[class*="mail"]:hover,
+#social-sidebar a[class*="mail"] span,
+#social-sidebar a[class*="mail"] span:before { background: grey; }
+
+#social-sidebar a[class*="youtube"]:hover,
+#social-sidebar a[class*="youtube"] span,
+#social-sidebar a[class*="youtube"] span:before { background: #cc181e; }
+
+
+ul  {
+
+    list-style-type: none;
+
+}
+
+.social_icons1   {
+
+    display: block;
+    position: relative;
+    bottom: 300px;
+    left: 10px;
+    z-index: -1;
+
+
+
+}
+
+.social_icons2   {
+
+    display: block;
+    position: relative;
+    bottom: 306px;
+    left: 10px;
+    z-index: -1;
+
+
+}
+
+.social_icons3   {
+
+    display: block;
+    position: relative;
+    bottom: 310px;
+    left: 10px;
+    z-index: -1;
+
+
+}
+
+.social_icons4   {
+
+    display: block;
+    position: relative;
+    bottom: 315px;
+    left: 10px;
+    z-index: -1;
+
+
+}
+
+
+
+
