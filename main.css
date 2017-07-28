@@ -1,17 +1,23 @@
-/*@media screen and (min-width:320px) and (max-width:768px) {*/
 
     html, body {
         width: 100%;
         background-image: url("https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18121502_10155124692790772_2097829566452580976_o.jpg?oh=d5bf310c82bc4c71ae5c749551d5db4b&oe=5A08F74A");
         position: fixed;
-        background-size: cover;
         background-repeat: no-repeat;
+        -webkit-background-size: cover auto;
+        -moz-background-size: cover auto;
+        -o-background-size: cover auto;
+        /*rem*/
+        font-size: 16px;
 
     }
 
 
+.container  {
 
-    /*https://image.architonic.com/img_pfm2-4/205/5916/beton-grey-2-b.jpg */
+        max-width: 950px;
+        margin: 0 auto;
+}
 
     .main   {
 
@@ -25,10 +31,10 @@
     table {
         border-collapse: collapse;
         position: relative;
-        margin-left: 20%;
+        margin-left: 10%;
         margin-right: auto;
         margin-bottom: 25%;
-        margin-top: 3%;
+        margin-top: 5%;
         padding: 0;
     }
 
@@ -40,13 +46,13 @@
     td  {
 
         font-family: "Old Standard TT";
-        height: 180px;
-        width: 180px;
+        height: 11.0rem;
+        width: 11.0rem;
         text-align: center;
-        padding: 5px;
+        padding: 0.5rem;
         background-color: #FFFFFF;
         color: black;
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
 /* links achter blokken / tabel*/
@@ -116,17 +122,20 @@
     #letter {
 
         font-family: "Tangerine";
-        font-size: 80px;
+        font-size: 5.0rem;
         text-align: left;
     }
 
-/*responsive maken van de site*/
 
-Qmedia only screen and (max-width: 800px) and (max-height: 600px){
-    table   {
+.sidebar    {
+
+        float: left;
+        background-color: rgba(0,0,0,0.8);
+        width: 2rem;
+        height: 100%;
         position: fixed;
-    }
-
+        top: 0rem;
+        left: 0rem;
 }
 
 /*menu slider*/
@@ -137,13 +146,13 @@ Qmedia only screen and (max-width: 800px) and (max-height: 600px){
   top: 0;
   background: rgba(0,0,255,0.1);
   height: 100%;
-  width: 150px;
+  width: 10.0rem;
 }
 
 .nav-list {
   cursor: pointer;
   list-style-type: none;
-  top: 40%;
+  top: 35%;
   text-align: center;
   position: relative;
   margin: 0;
@@ -156,10 +165,10 @@ Qmedia only screen and (max-width: 800px) and (max-height: 600px){
 }
 
 .list-item {
-  margin: 20px auto;
-  border: 2px solid #fff;
-  width: 50px;
-  padding: 15px;
+  margin: 3.0rem auto;
+  border: none;
+  width: 4.0rem;
+  padding: 1.0rem;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -267,24 +276,25 @@ button {
 
 .bar {
   display: block;
-  height: 5px;
-  width: 50px;
+  height: 0.36rem;
+  width: 3.7rem;
   background: #fff;
-  margin: 10px auto;
+  margin: 0.562rem auto;
 }
 
 .btn-nav {
-  display: block;
-  padding: 15px 0;
-  width: 50px;
-  position: fixed;
-  left: 30px;
-  margin: 0 auto;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+    display: block;
+    top: 1.0rem;
+    padding: 1.2rem 0;
+    width: 1.5rem;
+    position: fixed;
+    left: 2.8rem;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .btn-nav:focus { outline: none; }
@@ -292,39 +302,53 @@ button {
 .middle { margin: 0 auto; }
 
 .bar {
-  -webkit-transition: all .7s ease;
-  -moz-transition: all .7s ease;
-  -ms-transition: all .7s ease;
-  -o-transition: all .7s ease;
-  transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .animated { z-index: 999; }
 
 .animated .arrow-top-r {
-  -webkit-transform: rotateZ(-45deg) translateY(11px);
-  -moz-transform: rotateZ(-45deg) translateY(11px);
-  -ms-transform: rotateZ(-45deg) translateY(11px);
-  -o-transform: rotateZ(-45deg) translateY(11px);
-  transform: rotateZ(-45deg) translateY(11px);
-  width: 25px;
+    -webkit-transform: rotateZ(-45deg) translateY(11px);
+    -moz-transform: rotateZ(-45deg) translateY(11px);
+    -ms-transform: rotateZ(-45deg) translateY(11px);
+    -o-transform: rotateZ(-45deg) translateY(11px);
+    transform: rotateZ(-45deg) translateY(11px);
+    width: 1.59rem;
 }
 
 .animated .arrow-middle-r {
-  -webkit-transform: translateX(25px);
-  -moz-transform: translateX(25px);
-  -ms-transform: translateX(25px);
-  -o-transform: translateX(25px);
-  transform: translateX(25px);
+    -webkit-transform: translateX(1.59rem);
+    -moz-transform: translateX(1.59rem);
+    -ms-transform: translateX(1.59rem);
+    -o-transform: translateX(1.59rem);
+    transform: translateX(1.59rem);
+    width: 2.8rem;
 }
 
 .animated .arrow-bottom-r {
-  -webkit-transform: rotateZ(45deg) translateY(-11px);
-  -moz-transform: rotateZ(45deg) translateY(-11px);
-  -ms-transform: rotateZ(45deg) translateY(-11px);
-  -o-transform: rotateZ(45deg) translateY(-11px);
-  transform: rotateZ(45deg) translateY(-11px);
-  width: 25px;
+    -webkit-transform: rotateZ(45deg) translateY(-0.6rem);
+    -moz-transform: rotateZ(45deg) translateY(-0.6rem);
+    -ms-transform: rotateZ(45deg) translateY(-0.6rem);
+    -o-transform: rotateZ(45deg) translateY(-0.6rem);
+    transform: rotateZ(45deg) translateY(-0.6rem);
+    width: 1.59rem;
+}
+
+/*responsive maken van de site*/
+
+
+/* iPhone 6+ Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+
+/* iPhone 6+ landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
 }
 
 
