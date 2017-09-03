@@ -1,0 +1,762 @@
+
+
+body{
+    background-image: url("background_1.jpg");
+    background-repeat: repeat;
+}
+
+.container  {
+
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+
+}
+
+.site_nav   {
+    height: 7em;
+    width: 63em;
+    position: relative;
+    overflow-y: scroll;
+    /*left: 20.9em;*/
+    z-index: 8000;
+    background-image: url("background_2.jpg");
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(3, 3, 3, 0.2);
+    display: table;
+    margin: 0 auto;
+    top: 5em;
+
+}
+
+.site_nav_fixed {
+    height: 5.5em;
+    width: 63em;
+    position: fixed;
+    overflow-y: scroll;
+    /*right: 19.9%;*/
+    z-index: 8000;
+    background-image: url("background_2.jpg");
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(3, 3, 3, 0.2);
+
+    margin: 0 auto;
+    top: 0;
+
+}
+
+.site_nav ul{
+
+    margin-left: 5.5em;
+    line-height: 2.5em;
+    font-family: "Droid Sans", sans-serif;
+
+
+}
+
+.site_nav li{
+
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+    z-index: 6000;
+    overflow: hidden;
+
+}
+
+li a    {
+    color: #0088cc;
+    text-decoration: none;
+    z-index: 5001;
+    overflow: hidden;
+    font-size: 1.3em;
+    font-family: "Droid Sans", sans-serif;
+
+}
+
+.site_header    {
+    vertical-align: middle;
+    line-height: 5em;
+    font-family: "Droid Sans", sans-serif;
+    background-image: url("background_2.jpg");
+    height: 10em;
+    display: table;
+    margin: 0 auto;
+    width: 63em;
+    position: relative;
+    border-bottom: 1px solid #d4d4d4;
+    top: 0.1em;
+    z-index: 5000;
+
+
+}
+
+#naam_lijn  {
+    margin: 0;
+    color: #333333;
+    margin-top: 4em;
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 0;
+
+
+
+}
+
+h1::before   {
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 29%;
+    position: absolute;
+    left: 0;
+    top: 2.7em;
+    z-index: 7000;
+}
+
+h1::after   {
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 29%;
+    position: absolute;
+    left: 71%;
+    top: 2.7em;
+    z-index: 7000;
+}
+
+#beroep_lijn    {
+    margin: 0;
+    color: #616161;
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 2em;
+    padding: 0;
+    font-weight: normal;
+    position: relative;
+    top: -70px;
+
+}
+
+#korte_intro    {
+    margin: 0;
+    color: #a4a5a6;
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 1.5em;
+    padding: 0;
+    font-weight: 400;
+    position: relative;
+    top: -70px;
+    line-height: 1.3em;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+/*content van het CV*/
+
+.container_content_cv   {
+    vertical-align: middle;
+    line-height: 5em;
+    font-family: "Droid Sans", sans-serif;
+    background-image: url("background_2.jpg");
+    height: 200em; /*bepaald de hoogte van het ervaring element*/
+    display: table;
+    margin: 0 auto;
+    width: 63em;
+    position: relative;
+    z-index: 4000;
+
+
+}
+
+.aside_el_About_Me   {
+    width: 11em;
+    text-align: right;
+
+}
+
+.aside_el_About_Me, h2   {
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+}
+
+
+.aside_el_About_Me, h3    {
+    line-height: 1em;
+    color: #0099e8;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.0em;
+}
+
+.par_el_About_Me {
+    border-left: 1px solid #616161;
+    position: relative;
+    width: 10em;
+    height: 15em;
+    left: 13em;
+    padding-left: 2em;
+    bottom: 5em;
+
+}
+
+.circle {
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    display: inline;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
+    overflow: hidden;
+}
+
+#foto   {
+    width = 84px;
+    height: 84px;
+}
+
+/*tekst van de paragrafen*/
+
+p   {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    color: #8e8d8d;
+    text-align: left;
+    width: 29em;
+}
+
+.soc    {
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    width: 30em;
+    position: relative;
+    left: 43em;
+    bottom: 22.2em;
+
+}
+
+.soc li  {
+    display: inline;
+}
+
+ul, .soc_link {
+    list-style-type: none;
+    padding-right: 1.6em;
+
+}
+
+.info   {
+    height: 5em;
+    border: 0;
+    max-width: 100%;
+    width: 20em;
+    position: relative;
+    left: 43em;
+    bottom: 25em;
+    margin: 0;
+
+}
+
+#info_list  {
+
+    display: inline-block;
+    line-height: 3em;
+}
+
+.info_content  {
+    padding-left: 1em;
+    display: inline;
+    vertical-align: text-bottom;
+    line-height: 2em;
+    color: #8e8d8d;
+    font-size: 1em;
+
+}
+
+.aside_el_Experience   {
+    width: 11em;
+    text-align: right;
+    bottom: 17em;
+}
+
+.aside_el_Experience, h2   {
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+
+}
+
+
+.aside_el_Experience, h3    {
+    line-height: 1em;
+    color: #0099e8;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.0em;
+
+}
+
+.par_el_Experience {
+    border-left: 1px solid #616161;
+    position: relative;
+    width: 5em;
+    height: 25em;
+    left: 13em;
+    padding-left: 2em;
+    bottom: 21.9em;
+
+}
+
+.par_el_Experience p   {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 0.952em;
+    line-height: 1.8em;
+    color: #8e8d8d;
+    text-align: left;
+    width: 21em;
+}
+
+.skill_level    {
+    width: 18em;
+    position: relative;
+    height: 6em;
+    left: 42em;
+    bottom: 46em;
+}
+
+h4  {
+    text-align: center;
+    font: 1.4em 'Droid Sans', sans-serif;
+    line-height: 1.071428em;
+    color: #464646;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.progress_bar    {
+    width: 100%;
+    height: 1em;
+    margin: 0 auto 2em auto;
+    padding: 0;
+    background: #cfcfcf;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aaa #bbb #fff #bbb;
+    box-shadow: inset 0 2px 3px #bbb;
+    border-radius: 4px;
+
+}
+
+.progress_bar_inner_60 {
+    width: 60%;
+    height: 100%;
+    background-size: 18px 18px;
+    background-color: #ac0;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    box-shadow: inset 0px 2px 8px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.progress_bar_inner_70 {
+    width: 70%;
+    height: 100%;
+    background-size: 18px 18px;
+    background-color: #ac0;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    box-shadow: inset 0px 2px 8px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.progress_bar_inner_80 {
+    width: 80%;
+    height: 100%;
+    background-size: 18px 18px;
+    background-color: #ac0;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    box-shadow: inset 0px 2px 8px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+/*Experience 2 (breede vriant)*/
+
+.aside_el_Experience_2   {
+    width: 11em;
+    text-align: right;
+    bottom: 0.1em;
+    right: 13em;
+}
+
+.aside_el_Experience_2, h2   {
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+
+}
+
+
+.aside_el_Experience_2, h3    {
+    line-height: 1em;
+    color: #0099e8;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.0em;
+
+}
+
+.Experience_container   {
+    border-left: 1px solid #616161;
+    height: 80em;
+    left: 13em;
+    position: relative;
+    bottom: 45em;
+
+}
+
+.period {
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+    line-height: 1.9em;
+    background-color: #0099e8;
+    right: 11em;
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    bottom: 19em;
+}
+
+.Experience_wide h2   {
+    font-size: 2em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+    width: 15em;
+    top: 1em;
+
+}
+
+.Experience_wide h3 {
+    line-height: 1em;
+    color: #8e8e8e;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.3em;
+    width: 10em;
+    top: 0.05em;
+
+}
+
+.par_el_Experience_2 {
+
+    position: relative;
+    width: 5em;
+    height: 25em;
+    padding-left: 2em;
+    bottom: 10em;
+    left: 17em;
+
+}
+
+.par_el_Experience_2 p   {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 0.952em;
+    line-height: 1.8em;
+    color: #8e8d8d;
+    text-align: left;
+    width: 28em;
+
+}
+
+/*Educaction*/
+
+.aside_el_Education   {
+    width: 11em;
+    text-align: right;
+    top: 0.1em;
+    right: 13em;
+}
+
+.aside_el_Education, h2   {
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+
+}
+
+
+.aside_el_Education, h3    {
+    line-height: 1em;
+    color: #0099e8;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.0em;
+
+}
+
+.Education_container   {
+    border-left: 1px solid #616161;
+    height: 55em;
+    right: 0.05em;
+    position: relative;
+    bottom: 9em;
+
+}
+
+/* (dubbel)
+
+.period {
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+    line-height: 1.9em;
+    background-color: #0099e8;
+    right: 11em;
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    bottom: 19em;
+}*/
+
+.Education_wide h2   {
+    font-size: 2em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+    width: 15em;
+    top: 1em;
+
+}
+
+.Education_wide h3 {
+    line-height: 1em;
+    color: #8e8e8e;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.3em;
+    width: 10em;
+    top: 0.05em;
+
+}
+
+.par_el_Education {
+
+    position: relative;
+    width: 5em;
+    height: 25em;
+    padding-left: 2em;
+    bottom: 10em;
+    left: 17em;
+
+}
+
+.par_el_Education p   {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 0.952em;
+    line-height: 1.8em;
+    color: #8e8d8d;
+    text-align: left;
+    width: 28em;
+}
+
+/*Footer Contact formulier*/
+
+.contact_wrapper    {
+    vertical-align: middle;
+    line-height: 5em;
+    font-family: "Droid Sans", sans-serif;
+    background-image: url("background_2.jpg");
+    height: 50em; /*bepaald de hoogte van het ervaring element*/
+    display: table;
+    margin: 0 auto;
+    width: 63em;
+    position: relative;
+    z-index: 4000;
+    border-top: 1px solid #d4d4d4;
+    top: 20em;
+}
+
+
+.aside_el_Contact   {
+    width: 11em;
+    text-align: right;
+    top: 0.1em;
+    right: 13em;
+}
+
+.aside_el_Contact, h2   {
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    position: relative;
+    margin-top: 1.5em;
+
+}
+
+
+.aside_el_Contact, h3    {
+    line-height: 1em;
+    color: #0099e8;
+    font-weight: normal;
+    position: relative;
+    font-size: 1.0em;
+
+}
+
+.contact_container  {
+    width: 40em;
+    border-left: 1px solid #616161;
+    position: relative;
+    height: 30em;
+    left: 13em;
+}
+
+.Contact_form div  {
+    background-color: rgba(211,211,211,0.3);
+    z-index: 8000;
+    height: 28em;
+    width: 35em;
+    left: 17em;
+    bottom: 31em;
+    position: relative;
+}
+
+.Contact_fields {
+    border-radius:2px;
+    padding:1em 1em;
+    box-shadow:0 0 15px;
+    font-weight:bold;
+    width:8em;
+    margin:1em 5em 0 2em;
+}
+
+
+#Name_input {
+
+    top: 1em;
+    position: relative;
+    height: 3em;
+    width: 34em;
+    left: 3em;
+
+    font-size: 14px;
+    font-family: "Droid Sans", sans-serif;
+    color: #555555
+
+
+}
+
+#Mail_input {
+
+    top:1em;
+    position: relative;
+    left: 3em;
+    height: 3em;
+    width: 34em;
+
+    font-size: 14px;
+    font-family: "Droid Sans", sans-serif;
+    color: #555555;
+
+
+}
+
+#Message_input  {
+
+    top:3em;
+    position: relative;
+    height: 12em;
+    width: 34em;
+    left: 3em;
+
+    font-size: 14px;
+    font-family: "Droid Sans", sans-serif;
+    color: #555555;
+
+}
+
+#submit_button  {
+
+    top: 1em;
+    left: 25.4em;
+    width: 12em;
+    background-color: #0099e8;
+    color: white;
+    position: relative;
+    font-size: 14px;
+    border-radius: 0.4em;
+    border: 0;
+    cursor: pointer;
+
+}
+
+#returnmessage  {
+    font-size:14px;
+    color:green;
+    text-align:center;
+}
+
+
+
+
+
+
+
+

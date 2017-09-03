@@ -1,69 +1,285 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>The Agile Facilitator & Agile Coach</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online CV Sjabloon 1</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <!--Navigation Bar-->
+
+            <nav class="site_nav">
+                <ul id="scroll">
+                    <li id="About_Me"><a href="#">About Me</a></li>
+                    <li id="Experience_1"><a href="#">Experience</a></li>
+                    <li id="Education"><a href="#">Education</a></li>
+                    <li id="Contact"><a href="#">Contact</a></li>
+                    <li><a href="#">Extra</a></li>
+                    <li><a href="#">Extra</a></li>
+                </ul>
+            </nav>
+
+            <!--line shadow under nav-->
+
+            <div id="bottom_line_nav"></div>
+
+            <!--header with name and intro-->
 
 
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine"/>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Old+Standard+TT"/>
+            <header class="site_header">
+                <div id="naam_lijn">
+                    <h1>Dennis Rijkers</h1>
+                </div>
 
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-        <meta charset="UTF-8">
+                    <h2 id="beroep_lijn">Agile Coach</h2>
+                    <h3 id="korte_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius risus ut purus dignissim sed sagittis libero rutrum. </h3>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+            </header>
 
 
-    </head>
-        <body>
-            <div class="container">
-                <nav class="nav-container hidden hideNav">
-                      <ul class="nav-list">
-                        <li class="list-item"><a href="https://www.facebook.com/dennis.rijkers.5"><img src="http://files.softicons.com/download/social-media-icons/hex-social-media-icons-by-lokas-software/png/64x64/facebook.png"> </a>Facebook</li>
+            <!--CV content-->
 
-                        <li class="list-item"><a href="https://www.linkedin.com/in/dennisrijkers/"><img src="http://files.softicons.com/download/social-media-icons/hex-social-media-icons-by-lokas-software/png/64x64/linkedin.png"> </a>LinkedIn</li>
 
-                        <li class="list-item"><a href="mailto: drprijkers@me.com"><img src="http://files.softicons.com/download/social-media-icons/hex-social-media-icons-by-lokas-software/png/64x64/email.png"> </a>E-Mail</li>
+            <div class="container_content_cv">
 
-                      </ul>
-                    </nav>
-                <button class="btn-nav">
-                      <div class="bar arrow-top-r"></div>
-                      <div class="bar arrow-middle-r"></div>
-                      <div class="bar arrow-bottom-r"></div>
-                    </button>
-                <div class="main">
-                        <table>
-                            <thead>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td id="letter" class="transparant" colspan="2">Agile Coaching</td>
-                                    <td class="picture_me"><a class="blockhrefs" href="aboutme.html"><span id="hover_gone">No.1/<br>About Me</span></a></td>
-                                    <td class="transparant"><br></td>
-                                </tr>
-                                <tr>
-                                    <td class="fade_in"><a class="blockhrefs" href="blog.html">No.2/<br>Blog</a></td>
-                                    <td class="fade_grey" id="vlog">No.3/<br>Vlog</td>
-                                    <td class="vervagen"></td>
-                                    <td class="fade_in" class="line">No.4/<br>Services</td>
-                                </tr>
-                                <tr>
-                                    <td class="transparant"></td>
-                                    <td class="vervagen"></td>
-                                    <td class="fade_in"><a class="blockhrefs" href="contact.html">No.5/<br>Contact</a></td>
-                                    <td class="transparant"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <!--About me / info segment-->
+
+
+                <div id="About_Me_content">
+                    <aside class="aside_el_About_Me">
+                        <h2>About me</h2>
+                        <h3>Professional profile<br>and contact info</h3>
+                    </aside>
+                    <article class="par_el_About_Me">
+                        <span class="circle">
+                            <img id="foto" src="IMG_1384.JPG">
+                        </span>
+                        <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                    </article>
+                </div>
+
+                    <!--contact info plus social bar-->
+
+                <div class="contact_info">
+                        <div class="soc">
+                            <ul>
+                                <li>
+                                    <a href class="soc_link">
+                                        <img src="facebook.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href class="soc_link">
+                                    <img src="linkedin.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href class="soc_link">
+                                    <img src="rss.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href class="soc_link">
+                                    <img src="facebook.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <ul id="info_list">
+                                <li>
+                                    <img src="smartphone-call.png">
+                                    <a class="info_content">+31 6 28 975 904</a>
+                                </li>
+                                <li><img src="close-envelope.png">
+                                    <a class="info_content">drprijkers@me.com</a>
+                                </li>
+                                <li>
+                                    <img src="facebook-placeholder-for-locate-places-on-maps.png">
+                                    <a class="info_content">Amersfoort, 3824 VL</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                    <!--Experience short-->
+
+                <div >
+                        <aside id="Experience_1_content" class="aside_el_Experience">
+                        <h2>Experience</h2>
+                        <h3>Skills that<br>I'm proud of</h3>
+                    </aside>
+                    <article class="par_el_Experience">
+                        <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+
+                    </article>
+                </div>
+
+                    <!--Skill percentage bars-->
+
+                    <div class="skill_level">
+                        <h4>Agile Coaching</h4>
+                        <div class="progress_bar">
+                            <div class="progress_bar_inner_70"></div>
+                        </div>
                     </div>
+                    <div class="skill_level">
+                        <h4>Scrum</h4>
+                        <div class="progress_bar">
+                            <div class="progress_bar_inner_80"></div>
+                        </div>
+                    </div>
+                    <div class="skill_level">
+                        <h4>Facilitating</h4>
+                        <div class="progress_bar">
+                            <div class="progress_bar_inner_60"></div>
+                        </div>
+                    </div>
+                    <div class="skill_level">
+                        <h4>Change Management</h4>
+                        <div class="progress_bar">
+                            <div class="progress_bar_inner_70"></div>
+                        </div>
+                    </div>
+
+                    <!--rest of experience-->
+
+                    <div class="Experience_container">
+                        <aside class="aside_el_Experience_2">
+                            <h2>Experience</h2>
+                            <h3>Where I worked</h3>
+                        </aside>
+                        <article class="par_el_Experience_2">
+                            <span class="period">2016 - present</span>
+                            <div class="Experience_wide">
+                                <header>
+                                    <h2>ING Zakelijke Krediet Verlening</h2>
+                                    <h3>Sr. Agile Coach</h3>
+                                </header>
+                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+                            </div>
+
+                        </article>
+                        <article class="par_el_Experience_2">
+                            <span class="period">2016 - present</span>
+                            <div class="Experience_wide">
+                                <header>
+                                    <h2>ING Zakelijke Krediet Verlening</h2>
+                                    <h3>Sr. Agile Coach</h3>
+                                </header>
+                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+                            </div>
+
+                        </article>
+                        <article class="par_el_Experience_2">
+                            <span class="period">2016 - present</span>
+                            <div class="Experience_wide">
+                                <header>
+                                    <h2>ING Zakelijke Krediet Verlening</h2>
+                                    <h3>Sr. Agile Coach</h3>
+                                </header>
+                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+                            </div>
+
+                        </article>
+
+
+                        <!-- Eduction-->
+
+                        <div class="Education_container">
+                            <aside id="Education_content" class="aside_el_Education">
+                                <h2>Education</h2>
+                                <h3>My college and<br>High school</h3>
+                            </aside>
+                            <article class="par_el_Education">
+                                <span class="period">2016</span>
+                                <div class="Education_wide">
+                                    <header>
+                                        <h2>Bootcamp Lyssa Adkins / Boston</h2>
+                                        <h3>Agile Coaching and Facilitating</h3>
+                                    </header>
+                                    <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+                                </div>
+
+                            </article>
+                            <article class="par_el_Education">
+                                <span class="period">2016</span>
+                                <div class="Education_wide">
+                                    <header>
+                                        <h2>NCOI MBA</h2>
+                                        <h3>Changemanagement</h3>
+                                    </header>
+                                    <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
+                                </div>
+
+                            </article>
+
+                        </div>
+                    </div>
+
+                <footer class="contact_wrapper">
+                    <div class="contact_container">
+                        <aside id="Contact_content" class="aside_el_Contact">
+                            <h2>Contact</h2>
+                            <h3>I reply within<br>24 hours</h3>
+                        </aside>
+                    </div>
+                    <form id="form">
+                        <p id="returnmessage"></p>
+                        <div class="Contact_form">
+                            <div class="Contact_fields">
+
+                                <input placeholder="Name" type="text" id="Name_input">
+
+                                <input placeholder="E-mail address" type="email" id="Mail_input">
+
+                                <textarea placeholder="Message" type="text" id="Message_input"></textarea>
+
+                                <button id="submit_button" type="submit">Send the message</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </footer>
+
+
+                </div>
             </div>
-    </body>
+        </div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="main.js"></script>
+<script src="Scroll.js"></script>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+    
