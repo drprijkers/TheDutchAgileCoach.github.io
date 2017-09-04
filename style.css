@@ -746,7 +746,7 @@ h4  {
     border: solid;
 }
 
-#submit_button  {
+#submit  {
 
     top: 1.2em;
     left: 7em;
@@ -760,6 +760,10 @@ h4  {
     border: 0;
     cursor: pointer;
 
+}
+
+#submit:hover {
+    opacity:.8;
 }
 
 #returnmessage  {
