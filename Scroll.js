@@ -3,6 +3,8 @@ $(document).ready(function (){
             var target = $(this).attr('id');
             $('html, body').animate({scrollTop: $('#'+target+'_content').offset().top - 245}, 1000);
 
+            return false;
+
         });
 });
 

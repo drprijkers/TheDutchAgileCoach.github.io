@@ -18,8 +18,7 @@
                     <li id="Experience_1"><a href="#">Experience</a></li>
                     <li id="Education"><a href="#">Education</a></li>
                     <li id="Contact"><a href="#">Contact</a></li>
-                    <li><a href="#">Extra</a></li>
-                    <li><a href="#">Extra</a></li>
+                    <li id="naam_lijn"><a href="#">Back to Top</a></li>
                 </ul>
             </nav>
 
@@ -31,7 +30,7 @@
 
 
             <header class="site_header">
-                <div id="naam_lijn">
+                <div id="naam_lijn-content">
                     <h1>Dennis Rijkers</h1>
                 </div>
 
@@ -241,18 +240,20 @@
                             <h3>I reply within<br>24 hours</h3>
                         </aside>
                     </div>
-                    <form id="form">
+                    <form id="form" method="post" action="contactForm.php">
                         <p id="returnmessage"></p>
                         <div class="Contact_form">
                             <div class="Contact_fields">
 
-                                <input placeholder="Name" type="text" id="Name_input">
+                                <input name="Name" placeholder="Name" type="text" id="Name_input">
 
-                                <input placeholder="E-mail address" type="email" id="Mail_input">
+                                <input name="Email" placeholder="E-mail address" type="email" id="Mail_input">
 
-                                <textarea placeholder="Message" type="text" id="Message_input"></textarea>
+                                <textarea name="Message" placeholder="Message" type="text" id="Message_input"></textarea>
 
-                                <button id="submit_button" type="submit">Send the message</button>
+                                <input name="Human" placeholder="What is 2+2? (Anti-spam)" id="human">
+
+                                <button name="Submit" id="submit_button" type="submit">Send the message</button>
 
                             </div>
                         </div>

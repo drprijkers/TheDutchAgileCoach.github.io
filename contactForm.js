@@ -1,4 +1,14 @@
-$(document).ready(function ()   {
+
+
+
+
+
+
+
+
+
+
+/*$(document).ready(function ()   {
 
     $("#submit_button").click(function() {
         var name = $("#name_input").val();
@@ -25,4 +35,4 @@ $(document).ready(function ()   {
         }
     });
 
-});
+});*/
