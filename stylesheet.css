@@ -1,0 +1,1376 @@
+
+/* {
+    border: 1px solid red !important;
+}*/
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    line-height: 22px;
+    overflow-y: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(67, 66, 66);
+    width: 400em;
+}
+
+
+.menu   {
+    position: fixed;
+    width: 14.9rem;
+    height: 100%;
+    background-color: rgb(48, 47, 47);
+    border-right: 1px solid #ee6817;
+    top: 0;
+    left: 0;
+    z-index: 500;
+
+
+
+}
+
+.logo   {
+    width: 5em;
+    height: 6em;
+    background-color: #ee6817;
+    left: 1.7em;
+    top: 0.1em;
+    position: relative;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.4em;
+    transform: rotate(90deg);
+}
+
+.Lifebrander a   {
+    color: #FFFFFF;
+    font-size: 1em;
+    left: 3em;
+    text-decoration: none;
+    position: relative;
+    top: 19em;
+
+}
+
+.menu .logo   {
+    color: rgb(48, 47, 47);
+
+}
+
+.menu_box   {
+    width: 11em;
+    height: 30em;
+    top: 10em;
+    position: relative;
+    left: 0.5em;
+
+}
+
+
+nav {
+    width: 13em;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 13px 0;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid rgba(235,235,235,0.3);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    z-index: 550;
+}
+
+a   {
+    text-decoration: none;
+
+}
+
+li  {
+    list-style-type: none !important;
+
+}
+
+/*slider*/
+
+.content_container  {
+    width: 804px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.inner_home  {
+    color: #aaaaaa;
+    left: 13em;
+    z-index: 2;
+    position: absolute;
+    width: 15em;
+    top: 32em;
+    line-height: 2em;
+
+}
+
+.inner_home   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+.title  {
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    font-weight: 100;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    height: 2em;
+    line-height: 3em;
+}
+
+/* content about me*/
+
+.content_about_me   {
+    position: absolute;
+    left: 74.5em;
+    top: 0;
+    height: auto;
+    width: 804px;
+    z-index: 4;
+
+
+}
+
+.inner_about  {
+    color: #aaaaaa;
+    left: 2em;
+    z-index: 7000;
+    width: 15em;
+    top: 28em;
+
+}
+
+
+
+.inner_about   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+h3 {
+    font-size: 45px;
+    line-height: 45px;
+    left: 1.4em;
+    position: relative;
+}
+
+
+
+.title_devider_about  {
+    border: 4px solid #ee6817;
+    width: 3em;
+    bottom: 2em;
+    left: 3em;
+    position: relative;
+
+}
+
+.about_content ul   {
+    position: relative;
+    left: 1.5em;
+    top: 3em;
+    line-height: 2.5em;
+    width: 30em;
+
+}
+
+.about_content ul li    {
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.about_content    {
+    font-size: 0.7em;
+    font-weight: 400;
+
+}
+
+h4  {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    left: 2.7em;
+    top: 3em;
+}
+
+.about_content p {
+    left: 4em;
+    top: 4em;
+    position: relative;
+
+
+}
+
+.button {
+
+    top: 5em;
+    border: 0.1em solid #ee6817;
+    width: 20em;
+    text-align: center;
+    border-radius: 0.5em;
+    color: #aaaaaa;
+    font-size: 1.3em;
+    position: relative;
+    left: 3em;
+    padding: 0.3em;
+
+
+}
+
+.button:hover   {
+    background-color: #ee6817;
+    color: rgb(48, 47, 47);
+
+}
+
+/* content skills*/
+
+.content_skills   {
+    position: absolute;
+    left: 188.5em;
+    top: 0;
+    height: 100%;
+    width: 804px;
+    z-index: 4;
+    border: 1px solid #ee6817;
+    overflow-x: scroll;
+    background-color: rgb(48, 47, 47);
+
+
+
+}
+
+.skills_container   {
+    height: 1800px;
+    overflow-x: scroll;
+
+
+}
+
+.inner_skills  {
+    color: #aaaaaa;
+    left: 2em;
+    z-index: 7000;
+    width: 15em;
+    top: 28em;
+
+}
+
+
+
+.inner_skills   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+#skills_header {
+
+    font-size: 45px;
+    line-height: 45px;
+    position: relative;
+    left: 1.2em;
+}
+
+
+.title_devider_skills  {
+    border: 4px solid #ee6817;
+    width: 4em;
+    bottom: 2.9em;
+    left: 3.8em;
+    position: relative;
+
+}
+
+
+.content_skills    {
+    font-size: 0.7em;
+    font-weight: 400;
+    bottom: 3em;
+
+
+}
+
+#skills_intro_title  {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    left: 2.5em;
+    top: 0.1em;
+}
+
+#skills_intro {
+    left: 3.6em;
+    top: 0.4em;
+    width: 45em;
+    position: relative;
+    font-size: 1em;
+
+
+}
+
+/*table for progress circles*/
+
+
+.progress_circles   {
+    /*border: 1px solid #ee6817;*/
+    width: 70em;
+    height: auto;
+    position: relative;
+    left: 5.5em;
+
+}
+
+thead   {
+    /*border: 1px solid #ee6817;*/
+}
+
+thead td{
+    height: 2em;
+}
+
+td{
+    /*border: 1px solid #ee6817;*/
+    left: 1em;
+    width: 10em;
+    height: 4em;
+}
+
+#skills_title_Agile_Circles {
+    font-size: 2.3em;
+    font-weight: 500;
+    position: relative;
+    left: 0;
+    top: 0;
+
+}
+
+/*chart Professional Coaching // test*/
+
+.chart_AC {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_AC {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(324deg, transparent 50%, #ee6817 50%), linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_AC    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_AC   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.Agile_Coaching {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.Agile_Coaching h4  {
+    font-size: 2em;
+    left: 0;
+    top: 0;
+    line-height: 1em;
+}
+
+.Agile_Coaching p  {
+    font-size: 1.5em;
+    left: 0;
+    top: 0;
+
+}
+
+/*chart Facilitating // test*/
+
+.chart_FA {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_FA {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_FA    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_FA   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.Facilitating {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.Facilitating h4  {
+    font-size: 2em;
+    left: 0;
+    top: -0.5em;
+    line-height: 2em;
+}
+
+.Facilitating p  {
+    font-size: 1.5em;
+    left: 0;
+    top: 0;
+
+}
+
+/*chart Agile Lean Practitioner // test*/
+
+.chart_ALP {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_ALP {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(324deg, transparent 50%, #ee6817 50%), linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_ALP    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_ALP   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.Agile_Lean {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.Agile_Lean h4  {
+    font-size: 2em;
+    left: 0;
+    top: 0;
+    line-height: 1em;
+}
+
+.Agile_Lean p  {
+    font-size: 1.5em;
+    left: 0;
+    top: 0;
+
+}
+
+/*chart Teaching // test*/
+
+.chart_TEA {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_TEA {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_TEA    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_TEA   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.Teaching {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.Teaching h4  {
+    font-size: 2em;
+    left: 0;
+    top: -0.5em;
+    line-height: 2em;
+}
+
+.Teaching p  {
+    font-size: 1.5em;
+    left: 0;
+
+}
+
+/*chart Technical Mastery // test*/
+
+.chart_TEC {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_TEC {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_TEC    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_TEC   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.Technical {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.Technical h4  {
+    font-size: 2em;
+    left: 0;
+    top: -0.5em;
+    line-height: 2em;
+}
+
+.Technical p  {
+    font-size: 1.5em;
+    left: 0;
+
+}
+
+/*chart Business Mastery // test*/
+
+.chart_BM {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    border-radius: 50%;
+    left: 3em;
+    top: 0;
+}
+
+.ab_BM {
+    position: relative;
+    text-align: center;
+    width: 10.2em;
+    height: 10.2em;
+    border-radius: 100%;
+    background-color: rgb(100, 66, 66);
+    background-image: linear-gradient(90deg, #ee6817 50%, transparent 50%);
+}
+
+.cir_BM    {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: rgb(67, 66, 66);
+}
+
+.perc_BM   {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.BM {
+    position: relative;
+    line-height: 1em;
+    left: 0;
+    top: 0;
+}
+
+.BM h4  {
+    font-size: 2em;
+    left: 0;
+    top: -0.5em;
+    line-height: 2em;
+}
+
+.BM p  {
+    font-size: 1.5em;
+    left: 0;
+
+}
+
+.divider_skills_1 {
+    position: relative;
+    height: 1px;
+    background-color: #aaaaaa;
+    width: 73em;
+    top: 4em;
+    left: 3.5em;
+}
+
+/*skills knowledge table*/
+
+.skills_knowledge   {
+    /*border: 1px solid #ee6817;*/
+    width: 70em;
+    height: auto;
+    position: relative;
+    left: 5.5em;
+    top: 6em;
+
+}
+
+.skills_knowledge thead   {
+    /*border: 1px solid #ee6817;*/
+}
+
+.skills_knowledge thead td{
+    height: 1em;
+}
+
+.skills_knowledge td{
+    width: 5em;
+    height: 4em;
+    left: 0;
+
+}
+
+.orange_border    {
+    border: 1px solid #ee6817;
+
+}
+
+.skills_knowledge #skills_knowledge_H4 {
+
+    font-size: 2.3em;
+    font-weight: 500;
+    left: 0;
+    top: 0;
+
+}
+
+#skills_knowledge_p {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.skills_knowledge ul li {
+    font-size: 1.5em;
+    font-weight: 100;
+    left: 0;
+    top: 0;
+
+}
+
+.skills_knowledge ul li td{
+    left: 0;
+}
+
+.skills_knowledge li:before {
+    content:"\2714\0020";
+}
+
+.divider_skills_2 {
+    position: relative;
+    height: 1px;
+    background-color: #aaaaaa;
+    width: 73em;
+    top: 40em;
+    left: 3.5em;
+}
+
+/*skills language*/
+
+.skills_language  {
+    /*border: 1px solid #ee6817;*/
+    width: 70em;
+    height: auto;
+    position: relative;
+    left: 5.5em;
+    top: 10em;
+
+}
+
+.skills_language thead   {
+    /*border: 1px solid #ee6817;*/
+}
+
+.skills_language thead td{
+    height: 1em;
+}
+
+.skills_language td{
+    width: 6em;
+    height: 4em;
+    left: 0;
+
+}
+
+.orange_border    {
+    border: 1px solid #ee6817;
+
+}
+
+.skills_language #skills_language_H4 {
+
+    position: relative;
+    font-size: 2.3em;
+    font-weight: 500;
+    left: 0;
+    top: -8.5em;
+
+}
+
+#skills_language_p {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    bottom: 13em;
+
+}
+
+
+
+.skills_language ul li td{
+    left: 0;
+}
+
+/*language progress bars*/
+
+.progressBar_container  {
+    width: 60em;
+    height: auto;
+    position: relative;
+    left: 10em;
+    top: 30em;
+
+}
+
+.progressBar_container p    {
+    position: relative;
+    left: 7em;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.progress {
+    width: 45em;
+    height: 1.5em;
+    position: relative;
+    top: 0;
+    background: rgb(0, 0, 0);
+    left: 9em;
+    border-radius: 1em;
+}
+
+.progress_value {
+    background-color: rgb(118, 118, 118);
+    height: 1.5em;
+    border-radius: 1em;
+}
+
+#progressBar1 i{
+    color: #ee6817;
+    font-weight: 500;
+    font-size: x-large;
+    position: relative;
+    right: 3em;
+    bottom: 0.7em;
+
+}
+
+
+
+/* content Experience*/
+
+.content_Experience  {
+    position: absolute;
+    left: 270.5em;
+    top: 0;
+    height: 100%;
+    width: 804px;
+    z-index: 4;
+    border: 1px solid #ee6817;
+    overflow-x: scroll;
+
+}
+
+.Experience_container   {
+    height: 1800px;
+
+
+
+}
+
+.inner_Experience  {
+    color: #aaaaaa;
+    left: 2em;
+    z-index: 7000;
+    width: 40em;
+}
+
+.inner_Experience   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+#Experience_header {
+
+    font-size: 45px;
+    line-height: 45px;
+    position: relative;
+    left: 1.2em;
+}
+
+
+.title_devider_Experience  {
+    border: 4px solid #ee6817;
+    width: 4em;
+    bottom: 2.9em;
+    left: 3.8em;
+    position: relative;
+
+}
+
+
+.content_Experience    {
+    font-size: 0.7em;
+    font-weight: 400;
+    bottom: 3em;
+
+
+}
+
+#Experience_intro_title  {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    left: 2.5em;
+    top: 0;
+}
+
+#Experience_intro {
+    left: 3.6em;
+    top: 0;
+    width: 45em;
+    position: relative;
+    font-size: 1em;
+
+
+}
+
+.divider_Experience_3   {
+    position: relative;
+    height: 1px;
+    background-color: #aaaaaa;
+    width: 73em;
+    top: 0;
+    left: 3.5em;
+    margin-top: 4em;
+}
+
+
+
+
+
+.exp_1   {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    width: 70em;
+    height: 20em;
+
+
+}
+
+
+.fa-university {
+
+    display: inline-block;
+    font-family: FontAwesome, serif;
+    font-size: 30em;
+    color: #ee6817;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1em;
+    margin-left: 0;
+    bottom: 1em;
+
+}
+
+.exp_1_title    {
+    position: relative;
+    width: 10em;
+    height: 6em;
+    left: 4em;
+    bottom: 3.7em;
+    font-size: 2em;
+    line-height: 1.5em;
+
+}
+
+.employer   {
+    font-size: 2em;
+}
+
+.description    {
+
+    font-size: 1.5em;
+    width: 26em;
+    height: 10em;
+    left: 19em;
+    bottom: 14em;
+    position: relative;
+
+}
+
+
+/* content Education*/
+
+.content_Education  {
+    position: absolute;
+    left: 352.5em;
+    top: 0;
+    height: 100%;
+    width: 804px;
+    z-index: 4;
+    border: 1px solid #ee6817;
+    overflow-x: scroll;
+    background-color: rgb(48, 47, 47);
+
+}
+
+.Education_container   {
+    height: 1800px;
+
+}
+
+.inner_Education  {
+    color: #aaaaaa;
+    left: 2em;
+    z-index: 7000;
+    width: 40em;
+}
+
+.inner_Education   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+#Education_header {
+
+    font-size: 45px;
+    line-height: 45px;
+    position: relative;
+    left: 1.2em;
+}
+
+
+.title_devider_Education  {
+    border: 4px solid #ee6817;
+    width: 4em;
+    bottom: 2.9em;
+    left: 3.8em;
+    position: relative;
+
+}
+
+
+.content_Education    {
+    font-size: 0.7em;
+    font-weight: 400;
+    bottom: 3em;
+
+
+}
+
+#Education_intro_title  {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    left: 2.5em;
+    top: 0;
+}
+
+#Education_intro {
+    left: 3.6em;
+    top: 0;
+    width: 45em;
+    position: relative;
+    font-size: 1em;
+
+
+}
+
+.divider_Education_3   {
+    position: relative;
+    height: 1px;
+    background-color: #aaaaaa;
+    width: 73em;
+    top: 0;
+    left: 3.5em;
+    margin-top: 4em;
+}
+
+
+
+
+
+.edu_1   {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    width: 70em;
+    height: 20em;
+
+
+}
+
+
+.fa-graduation-cap {
+
+    display: inline-block;
+    font-family: FontAwesome, serif;
+    font-size: 30em;
+    color: #ee6817;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1em;
+    margin-left: 0;
+    bottom: 1em;
+
+}
+
+.edu_1_title    {
+    position: relative;
+    width: 10em;
+    height: 6em;
+    left: 4em;
+    bottom: 3.7em;
+    font-size: 2em;
+    line-height: 1.5em;
+
+}
+
+.school   {
+    font-size: 2em;
+}
+
+.description    {
+
+    font-size: 1.5em;
+    width: 26em;
+    height: 10em;
+    left: 19em;
+    bottom: 14em;
+    position: relative;
+
+}
+
+
+/* content Contact*/
+
+.content_Contact  {
+    position: absolute;
+    left: 304.3em;
+    top: 0;
+    height: 100%;
+    width: 804px;
+    z-index: 4;
+    border: 1px solid #ee6817;
+    overflow-x: scroll;
+
+
+}
+
+
+
+label   {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    width: 25em;
+
+
+}
+
+
+.body   {
+
+
+    width: 25em;
+
+
+}
+
+.contact_form   {
+    position: relative;
+    overflow: hidden;
+    left: 8em;
+    width: 25em;
+
+}
+
+
+input, textarea   {
+    width:439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #ee6817;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: rgb(48, 47, 47);
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #ee6817;
+    background-color: #aaaaaa;
+
+}
+
+textarea    {
+    height: 213px;
+    background-color: #efefef;
+}
+
+.inner_Contact  {
+    color: #aaaaaa;
+    left: 5em;
+    z-index: 7000;
+    width: 35em;
+
+
+}
+
+.inner_Contact   {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #aaaaaa;
+
+
+}
+
+#Contact_header {
+
+    font-size: 45px;
+    line-height: 45px;
+    position: relative;
+    left: 3.75em;
+    width: 10em;
+}
+
+
+.title_devider_Contact  {
+    border: 4px solid #ee6817;
+    width: 3em;
+    bottom: 2em;
+    left: 8.3em;
+    position: relative;
+
+}
+
+#submit {
+    height: 2.5em;
+    width: 10em;
+    background: none;
+    color: #aaaaaa;
+    border: 2px solid #ee6817;
+    border-radius: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#submit:focus{
+    border-color: none;
+}
+
+#submit:hover   {
+    background-color: #ee6817;
+    color: rgb(48, 47, 47);
+
+}
+
+/* content Foto*/
+
+.content_Foto  {
+    position: absolute;
+    left: 361.8em;
+    top: 0;
+    height: 100%;
+    width: 740px;
+    z-index: 4;
+    border: 1px solid #ee6817;
+    overflow-x: hidden;
+
+}
+
+
+

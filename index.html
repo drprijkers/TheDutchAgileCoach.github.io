@@ -1,275 +1,509 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Online CV Sjabloon 1</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="CSS/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="CSS/font-awesome.css" type="text/css">
+
 
 </head>
 <body>
-    <div class="wrapper">
-        <div class="container">
 
-            <!--Navigation Bar-->
+    <!--sidebar menu-->
 
-            <nav class="site_nav">
-                <ul id="scroll">
-                    <li id="About_Me"><a href="#">About Me</a></li>
-                    <li id="Experience_1"><a href="#">Experience</a></li>
-                    <li id="Education"><a href="#">Education</a></li>
-                    <li id="Contact"><a href="#">Contact</a></li>
-                    <li id="naam_lijn"><a href="#">Back to Top</a></li>
+    <aside class="menu" id="menu" style="overflow: hidden">
+        <div class="logo">
+            <h1>Dennis<br>Rijkers</h1>
+        </div>
+        <nav id="menu1" role="navigation">
+            <div id="scroll" class="menu_box">
+                <ul>
+                    <li><a href="#" id="home"><span>Home</span></a></li>
+                    <li><a href="#" id="skills"><span>Skills</span></a></li>
+                    <li><a href="#" id="experience"><span>Experience</span></a></li>
+                    <li><a href="#" id="education"><span>Education</span></a></li>
+                    <li><a href="#" id="about"><span>About</span></a></li>
+                    <li><a href="blog.html"><span>Blog</span></a></li>
+                    <li><a href="#" id="contact"><span>Contact</span></a></li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
+        <div class="Lifebrander">
+            <a href="www.lifebrander.nl">Lifebrander Resume!</a>
+        </div>
+    </aside>
 
-            <!--line shadow under nav-->
+    <!-- carousel -->
 
-            <div id="bottom_line_nav"></div>
+    <div class="owl-carousel">
+        <div class="item">
+            <img src="IMG/IMG_1384.JPG" width="804px" height="960px" top="0" bottom="0">
+        </div>
+        <div class="item">
+            <img src="IMG/IMG_1384.JPG" width="804px" height="960px" top="0" bottom="0">
+        </div>
+        <div class="item">
+            <img src="IMG/IMG_1383.JPG" width="804px" height="960px" top="0" bottom="0">
+        </div>
 
-            <!--header with name and intro-->
+    </div>
+    <article id="home_content" class="content_container">
+        <div class="inner_home">
+            <h2>
+                <span>Hello I' am</span>
+                <br>Dennis Rijkers
+            </h2>
+            <span class="title">Senior Agile Coach & Facilitator</span>
+        </div>
+    </article>
 
+        <!-- article about me-->
 
-            <header class="site_header">
-                <div id="naam_lijn-content">
-                    <h1>Dennis Rijkers</h1>
-                </div>
+    <article id="about_content" class="content_about_me">
+        <div class="about_container">
+            <div class="inner_about">
+                <h3>About</h3>
+                <div class="title_devider_about"></div>
 
-                    <h2 id="beroep_lijn">Agile Coach</h2>
-                    <h3 id="korte_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius risus ut purus dignissim sed sagittis libero rutrum. </h3>
-
-            </header>
-
-
-            <!--CV content-->
-
-
-            <div class="container_content_cv">
-
-                <!--About me / info segment-->
-
-
-                <div id="About_Me_content">
-                    <aside class="aside_el_About_Me">
-                        <h2>About me</h2>
-                        <h3>Professional profile<br>and contact info</h3>
-                    </aside>
-                    <article class="par_el_About_Me">
-                        <span class="circle">
-                            <img id="foto" src="IMG_1384.JPG">
-                        </span>
-                        <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                    </article>
-                </div>
-
-                    <!--contact info plus social bar-->
-
-                <div class="contact_info">
-                        <div class="soc">
-                            <ul>
-                                <li>
-                                    <a href class="soc_link">
-                                        <img src="facebook.png">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href class="soc_link">
-                                    <img src="linkedin.png">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href class="soc_link">
-                                    <img src="rss.png">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href class="soc_link">
-                                    <img src="facebook.png">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="info">
-                            <ul id="info_list">
-                                <li>
-                                    <img src="smartphone-call.png">
-                                    <a class="info_content">+31 6 28 975 904</a>
-                                </li>
-                                <li><img src="close-envelope.png">
-                                    <a class="info_content">drprijkers@me.com</a>
-                                </li>
-                                <li>
-                                    <img src="facebook-placeholder-for-locate-places-on-maps.png">
-                                    <a class="info_content">Amersfoort, 3824 VL</a>
-                                </li>
-                            </ul>
-                        </div>
-                </div>
-
-                    <!--Experience short-->
-
-                <div >
-                        <aside id="Experience_1_content" class="aside_el_Experience">
-                        <h2>Experience</h2>
-                        <h3>Skills that<br>I'm proud of</h3>
-                    </aside>
-                    <article class="par_el_Experience">
-                        <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                        <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-
-                    </article>
-                </div>
-
-                    <!--Skill percentage bars-->
-
-                    <div class="skill_level">
-                        <h4>Agile Coaching</h4>
-                        <div class="progress_bar">
-                            <div class="progress_bar_inner_70"></div>
-                        </div>
-                    </div>
-                    <div class="skill_level">
-                        <h4>Scrum</h4>
-                        <div class="progress_bar">
-                            <div class="progress_bar_inner_80"></div>
-                        </div>
-                    </div>
-                    <div class="skill_level">
-                        <h4>Facilitating</h4>
-                        <div class="progress_bar">
-                            <div class="progress_bar_inner_60"></div>
-                        </div>
-                    </div>
-                    <div class="skill_level">
-                        <h4>Change Management</h4>
-                        <div class="progress_bar">
-                            <div class="progress_bar_inner_70"></div>
-                        </div>
-                    </div>
-
-                    <!--rest of experience-->
-
-                    <div class="Experience_container">
-                        <aside class="aside_el_Experience_2">
-                            <h2>Experience</h2>
-                            <h3>Where I worked</h3>
-                        </aside>
-                        <article class="par_el_Experience_2">
-                            <span class="period">2016 - present</span>
-                            <div class="Experience_wide">
-                                <header>
-                                    <h2>ING Zakelijke Krediet Verlening</h2>
-                                    <h3>Sr. Agile Coach</h3>
-                                </header>
-                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-                            </div>
-
-                        </article>
-                        <article class="par_el_Experience_2">
-                            <span class="period">2016 - present</span>
-                            <div class="Experience_wide">
-                                <header>
-                                    <h2>ING Zakelijke Krediet Verlening</h2>
-                                    <h3>Sr. Agile Coach</h3>
-                                </header>
-                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-                            </div>
-
-                        </article>
-                        <article class="par_el_Experience_2">
-                            <span class="period">2016 - present</span>
-                            <div class="Experience_wide">
-                                <header>
-                                    <h2>ING Zakelijke Krediet Verlening</h2>
-                                    <h3>Sr. Agile Coach</h3>
-                                </header>
-                                <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                                <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-                            </div>
-
-                        </article>
-
-
-                        <!-- Eduction-->
-
-                        <div class="Education_container">
-                            <aside id="Education_content" class="aside_el_Education">
-                                <h2>Education</h2>
-                                <h3>My college and<br>High school</h3>
-                            </aside>
-                            <article class="par_el_Education">
-                                <span class="period">2016</span>
-                                <div class="Education_wide">
-                                    <header>
-                                        <h2>Bootcamp Lyssa Adkins / Boston</h2>
-                                        <h3>Agile Coaching and Facilitating</h3>
-                                    </header>
-                                    <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-                                </div>
-
-                            </article>
-                            <article class="par_el_Education">
-                                <span class="period">2016</span>
-                                <div class="Education_wide">
-                                    <header>
-                                        <h2>NCOI MBA</h2>
-                                        <h3>Changemanagement</h3>
-                                    </header>
-                                    <p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
-                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
-                                    <p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia.</p>
-                                </div>
-
-                            </article>
-
-                        </div>
-                    </div>
-
-                <footer class="contact_wrapper">
-                    <div class="contact_container">
-                        <aside id="Contact_content" class="aside_el_Contact">
-                            <h2>Contact</h2>
-                            <h3>I reply within<br>24 hours</h3>
-                        </aside>
-                    </div>
-                    <form id="form" method="post" action="contactForm.php">
-                        <div class="Contact_form">
-                            <div class="Contact_fields">
-
-                                <input name="Name" placeholder="Name" type="text" id="Name_input">
-
-                                <input name="Email" placeholder="E-mail address" type="email" id="Mail_input">
-
-                                <textarea name="Message" placeholder="Message" type="text" id="Message_input"></textarea>
-
-                                <input name="Human" placeholder="What is 2+2? (Anti-spam)" id="human">
-
-                                <input name="submit" id="submit" type="submit" value="Submit">
-
-                            </div>
-                        </div>
-                    </form>
-                </footer>
-
-
+                <div class="about_content">
+                    <ul>
+                        <li>Name: Dennis Rijkers</li>
+                        <li>Email: drprijkers@me.com</li>
+                        <li>Phone: +316 28 975 904</li>
+                        <li>Date of Birth: 19-09-1976</li>
+                        <li>Address: Alpensalamander 4, Amersfoort, The Netherlands</li>
+                        <li>Nationality: Dutch</li>
+                    </ul>
+                    <h4>Professional Profile</h4>
+                    <p>Dingen dingen dingen dingen dingen dingen dingen</p>
+                    <a href="#" class="button">Download resume as PDF format</a>
                 </div>
             </div>
         </div>
-    </div>
+
+    </article>
+
+        <!-- article skills -->
+
+    <article id="skills_content" class="content_skills">
+        <div class="skills_container">
+            <div class="inner_skills">
+                <h3 id="skills_header">Skills</h3>
+                <div class="title_devider_skills"></div>
+                    <h4 id="skills_intro_title">My Professional Skills</h4>
+                    <p id="skills_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+
+
+            <table class="progress_circles">
+
+                <thead>
+                <td colspan="4">
+                    <h4 id="skills_title_Agile_Circles">Agile Coaching competence profile</h4>
+                </td>
+
+                </thead>
+                <tr>
+                    <td>
+                        <div class="chart_AC" data-percent="65">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_AC">
+                                    <div class="cir_AC">
+                                        <span class="perc_AC">65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Agile_Coaching">
+                            <h4>Professional Coaching</h4>
+                            <p>Advanced, 6 years</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="chart_FA" data-percent="50">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_FA">
+                                    <div class="cir_FA">
+                                        <span class="perc_FA">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Facilitating">
+                            <h4>Facilitating</h4>
+                            <p>Advanced, 5 years</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="chart_ALP" data-percent="65">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_ALP">
+                                    <div class="cir_ALP">
+                                        <span class="perc_ALP">65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Agile_Lean">
+                            <h4>Agile & Lean Practitioner</h4>
+                            <p>Advanced, 6 years</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="chart_TEA" data-percent="50">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_TEA">
+                                    <div class="cir_TEA">
+                                        <span class="perc_TEA">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Teaching">
+                            <h4>Teaching</h4>
+                            <p>Advanced, 5 years</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="chart_TEC" data-percent="50">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_TEC">
+                                    <div class="cir_TEC">
+                                        <span class="perc_TEC">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Technical">
+                            <h4>Technical Mastery</h4>
+                            <p>Advanced, 5 years</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="chart_BM" data-percent="50">
+                            <div style="width: 100px; height: 100px;">
+                                <div class="ab_BM">
+                                    <div class="cir_BM">
+                                        <span class="perc_BM">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="BM">
+                            <h4>Business Mastery</h4>
+                            <p>Advanced, 5 years</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="divider_skills_1"></div>
+
+            <table class="skills_knowledge">
+
+                <thead>
+
+                <tr>
+                    <td colspan="4">
+                        <h4 id="skills_knowledge_H4">Knowledge</h4>
+                        <p id="skills_knowledge_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                    </td>
+                </tr>
+
+                </thead>
+                <tr>
+                    <td class="orange_border">
+                        <ul>
+                            <li>Agile & Organisations</li>
+                            <li>LeSS</li>
+                            <li>SAFe</li>
+                            <li>Scrum Master</li>
+                            <li>Agile Coaching</li>
+                        </ul>
+                    </td>
+                    <td class="orange_border">
+                        <ul>
+                            <li>Scaled Agile</li>
+                            <li>Agile & Lean</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                        </ul>
+                    </td>
+                    <td class="orange_border">
+                        <ul>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                        </ul>
+                    </td>
+                    <td class="orange_border">
+                        <ul>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                            <li>Agile</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <div class="divider_skills_2"></div>
+
+                <table class="skills_language">
+
+                    <thead>
+
+                    <tr>
+                        <td>
+                            <h4 id="skills_language_H4">Language Skills</h4>
+                            <p id="skills_language_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                        </td>
+                    </tr>
+
+                    </thead>
+
+                    <div class="progressBar_container">
+                        <p>English experienced</p>
+
+                        <div id="progressBar1" class="progress">
+                           <div class="progress_value" style="width: 95%;"></div>
+                           <i>95%</i>
+                        </div>
+
+                        <p>German practical</p>
+
+                        <div id="progressBar1" class="progress">
+                            <div class="progress_value" style="width: 50%;"></div>
+                            <i>50%</i>
+                        </div>
+
+                        <p>English experienced</p>
+
+                        <div id="progressBar1" class="progress">
+                            <div class="progress_value" style="width: 95%;"></div>
+                            <i>95%</i>
+                        </div>
+                    </div>
+                </table>
+    </article>
+
+    <!-- Experience segment -->
+
+    <article id="experience_content" class="content_Experience">
+        <div class="Experience_container">
+            <div class="inner_Experience">
+                <h3 id="Experience_header">Experience</h3>
+                <div class="title_devider_Experience"></div>
+                <h4 id="Experience_intro_title">17years of experience!!</h4>
+                <p id="Experience_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+            </div>
+
+            <div class="divider_Experience_3"></div>
+
+            <div class="exp_1">
+                    <i class="fa fa-university fa-5x"></i>
+                    <div class="exp_1_title">
+                        <p><span class="employer">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                    </div>
+            </div>
+
+            <div class="divider_Experience_3"></div>
+
+            <div class="exp_1">
+                <i class="fa fa-university fa-5x"></i>
+                <div class="exp_1_title">
+                    <p><span class="employer">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Experience_3"></div>
+
+            <div class="exp_1">
+                <i class="fa fa-university fa-5x"></i>
+                <div class="exp_1_title">
+                    <p><span class="employer">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Experience_3"></div>
+
+            <div class="exp_1">
+                <i class="fa fa-university fa-5x"></i>
+                <div class="exp_1_title">
+                    <p><span class="employer">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Experience_3"></div>
+
+        </div>
+
+
+
+    </article>
+
+    <!-- Education segment -->
+
+    <article id="education_content" class="content_Education">
+        <div class="Education_container">
+            <div class="inner_Education">
+                <h3 id="Education_header">Education</h3>
+                <div class="title_devider_Education"></div>
+                <h4 id="Education_intro_title">My education</h4>
+                <p id="Education_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+            </div>
+
+            <div class="divider_Education_3"></div>
+
+            <div class="edu_1">
+                <i class="fa fa-graduation-cap fa-5x"></i>
+                <div class="edu_1_title">
+                    <p><span class="school">MBA</span><br>Changemanagement<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Education_3"></div>
+
+            <div class="edu_1">
+                <i class="fa fa-graduation-cap fa-5x"></i>
+                <div class="edu_1_title">
+                    <p><span class="school">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Education_3"></div>
+
+            <div class="edu_1">
+                <i class="fa fa-graduation-cap fa-5x"></i>
+                <div class="edu_1_title">
+                    <p><span class="school">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Education_3"></div>
+
+            <div class="edu_1">
+                <i class="fa fa-graduation-cap fa-5x"></i>
+                <div class="edu_1_title">
+                    <p><span class="employer">ING Bank</span><br>Agile Coach<br>2017-2018</p>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
+                </div>
+            </div>
+
+            <div class="divider_Education_3"></div>
+
+        </div>
+
+
+
+    </article>
+
+    <!-- Contact segment -->
+
+    <article id="contact_content" class="content_Contact">
+        <div class="Contact_container">
+            <div class="inner_Contact">
+                <h3 id="Contact_header">Contact</h3>
+                <div class="title_devider_Contact"></div>
+
+
+                <div class="contact_form">
+                    <header class="body">
+
+                    </header>
+                    <section class="body">
+                        <form method="post" action="index.php">
+                            <label>Name</label>
+                            <input name="name" placeholder="Type here">
+
+                            <label>Email</label>
+                            <input name="email" type="email" placeholder="Type here">
+
+                            <label>Message</label>
+                            <textarea name="message" placeholder="Type here"></textarea>
+
+                            <label>*What is 2+2? (Anti-spam)</label>
+                            <input name="human" placeholder="Type Here">
+
+                            <input id="submit" name="submit" type="submit" value="submit">
+                        </form>
+                    </section>
+                    <footer class="body">
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- foto -->
+
+    <article class="content_Foto">
+        <div class="Foto_container">
+            <img src="IMG/IMG_1383.JPG" style="width: 67em">
+        </div>
+    </article>
+
+
+
+
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="main.js"></script>
-<script src="Scroll.js"></script>
+<script src="JS/owl.carousel.min.js"></script>
+<script src="https://use.fontawesome.com/6625677a0a.js"></script>
+<script src="JS/carousel.js"></script>
+<script src="JS/horizontalScroll.js"></script>
+<script src="JS/CircleDiagram.js"></script>
+
 </body>
 </html>
 
@@ -282,4 +516,4 @@
 
 
 
-    
+
